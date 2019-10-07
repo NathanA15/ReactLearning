@@ -4,7 +4,10 @@ import UpdatedComponent from '../UpdatedComponent/UpdatedComponent';
 class HelloTest extends Component{
     render(){
         return (
-            <h1>Hello World {this.props.name} </h1>
+            <div>
+                <h1>Hello World {this.props.name} </h1>
+                <p>{this.props.test2}</p>
+            </div>
         )
     } 
 } 
