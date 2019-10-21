@@ -3,7 +3,7 @@ import './App.css';
 import HelloTest from './HelloTest/HelloTest';
 
 
-// lol
+
 class App extends Component {
   render(){
     return (
